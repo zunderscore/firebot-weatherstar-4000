@@ -29,10 +29,10 @@ let cachedLocation: {
     lon?: number
 };
 
-const logError = (message: string, ...meta: any[]) => logger.error(`WeatherStar 4000: ${message}`, meta);
-const logWarn = (message: string, ...meta: any[]) => logger.warn(`WeatherStar 4000: ${message}`, meta);
-const logInfo = (message: string, ...meta: any[]) => logger.info(`WeatherStar 4000: ${message}`, meta);
-const logDebug = (message: string, ...meta: any[]) => logger.debug(`WeatherStar 4000: ${message}`, meta);
+const logError = (message: string, ...meta: any[]) => logger.error(`WeatherStar 4000: ${message}`, ...meta);
+const logWarn = (message: string, ...meta: any[]) => logger.warn(`WeatherStar 4000: ${message}`, ...meta);
+const logInfo = (message: string, ...meta: any[]) => logger.info(`WeatherStar 4000: ${message}`, ...meta);
+const logDebug = (message: string, ...meta: any[]) => logger.debug(`WeatherStar 4000: ${message}`, ...meta);
 
 const round2 = (value: number, decimals: number) => Math.trunc(value * 10 ** decimals) / 10 ** decimals;
 
@@ -147,7 +147,8 @@ const script: Firebot.CustomScript<Settings> = {
             description: packageInfo.description,
             author: packageInfo.author,
             version: packageInfo.version,
-            firebotVersion: "5"
+            firebotVersion: "5",
+            startupOnly: true
         }
     },
     getDefaultParameters: () => {
