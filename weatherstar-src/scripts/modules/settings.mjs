@@ -35,7 +35,7 @@ function unitChange() {
 }
 
 async function getSettings() {
-	const response = await fetch(`${window.location.protocol}//${window.location.host}/integrations/weatherstar-4000/settings`);
+	const response = await fetch(`${window.location.protocol}//${window.location.host}/plugins/weatherstar-4000/settings`);
 
 	if (response.ok) {
 		const responseData = await response.json();

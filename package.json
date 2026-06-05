@@ -1,7 +1,7 @@
 {
   "name": "firebot-weatherstar-4000",
-  "scriptOutputName": "firebot-weatherstar-4000",
-  "version": "1.0.1",
+  "pluginOutputName": "firebot-weatherstar-4000",
+  "version": "2.0.0",
   "weatherstarVersion": "5.21.8",
   "description": "Firebot plugin to add a WeatherStar 4000-style overlay.",
   "main": "",
@@ -15,7 +15,7 @@
   "author": "zunderscore",
   "license": "MIT",
   "devDependencies": {
-    "@crowbartools/firebot-custom-scripts-types": "github:crowbartools/firebot-custom-scripts-types#fbc352928d71795bf1364eec400f2f8c01c9671f",
+    "@crowbartools/firebot-types": "^5.67.0-alpha11",
     "del": "^8.0.1",
     "gulp": "^5.0.1",
     "gulp-concat": "^2.6.1",

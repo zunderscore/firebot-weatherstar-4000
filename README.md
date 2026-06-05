@@ -2,7 +2,7 @@
 
 This is a *highly* modified version of the [WeatherStar 4000+ emulator](https://github.com/netbymatt/ws4kp), built as a plugin for [Firebot](https://github.com/crowbartools/Firebot) that provides a self-contained overlay.
 
-Once installed and configured in Firebot, you can access the overlay from the internal Firebot web server at `/integrations/weatherstar-4000/overlay` (default URL is `http://localhost:7472/integrations/weatherstar-4000/overlay`).
+Once installed and configured in Firebot, you can access the overlay from the internal Firebot web server at `/plugins/weatherstar-4000/overlay` (default URL is `http://localhost:7472/plugins/weatherstar-4000/overlay`).
 
 **NOTE**: This plugin only works for US-based locations as it relies on NWS/NOAA APIs.
 
