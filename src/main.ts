@@ -132,6 +132,8 @@ const plugin: Plugin<Settings> = {
         description: packageInfo.description,
         author: packageInfo.author,
         version: packageInfo.version,
+        icon: "fa-sun",
+        color: "#FFFF00",
         repo: "https://github.com/zunderscore/firebot-weatherstar-4000",
         minimumFirebotVersion: { major: 5, minor: 67 },
         type: "plugin",
