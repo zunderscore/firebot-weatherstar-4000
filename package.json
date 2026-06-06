@@ -15,7 +15,7 @@
   "author": "zunderscore",
   "license": "MIT",
   "devDependencies": {
-    "@crowbartools/firebot-types": "^5.67.0-alpha11",
+    "@crowbartools/firebot-types": "^5.67.0-alpha15",
     "del": "^8.0.1",
     "gulp": "^5.0.1",
     "gulp-concat": "^2.6.1",
